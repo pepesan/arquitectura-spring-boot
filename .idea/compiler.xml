@@ -13,12 +13,16 @@
         <module name="eureka-microservice" />
         <module name="eureka-server" />
         <module name="spring-boot-hystrix-dashboard" />
-        <module name="spring-boot-security-token" />
+        <module name="SpringBootJwtAuthentication" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-security-token" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBootJwtAuthentication" options="-parameters" />
       <module name="cloud-config-client" options="-parameters" />
       <module name="cloud-config-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />

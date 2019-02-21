@@ -1,0 +1,7 @@
+{
+  "name": "admin",
+  "username": "admin",
+  "email": "admin@local",
+  "password": "admin1234",
+  "role": ["user","admin"]
+}

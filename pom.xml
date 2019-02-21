@@ -16,7 +16,7 @@
         <module>eureka-client/pom.xml</module>
         <module>cloud-config-server/pom.xml</module>
         <module>cloud-config-client/pom.xml</module>
-        <module>spring-boot-security-token/pom.xml</module>
+        <module>SpringBootJwtAuthentication/pom.xml</module>
         <module>spring-boot-hystrix-dashboard/pom.xml</module>
     </modules>
 
