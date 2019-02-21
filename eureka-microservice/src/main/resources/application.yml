@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+
+spring:
+  application:
+    name: item-catalog-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
