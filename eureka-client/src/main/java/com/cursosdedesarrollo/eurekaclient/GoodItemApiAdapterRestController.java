@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
@@ -19,6 +20,8 @@ class GoodItemApiAdapterRestController {
     public Collection<Item> fallback() {
         return new ArrayList<>();
     }
+
+
 
     @HystrixCommand(fallbackMethod = "fallback")
     @GetMapping("/top-brands")
@@ -35,4 +38,49 @@ class GoodItemApiAdapterRestController {
                 !item.getName().equals("Adidas") &&
                 !item.getName().equals("Reebok");
     }
+
+    @HystrixCommand(fallbackMethod = "fallback")
+    @GetMapping("/listado")
+    public List<Item> listItems() {
+        ArrayList<Item> listado= new ArrayList<>();
+        Collection<Item> coleccion=itemClient.readItems()
+                .getContent();
+        for (Item i : coleccion){
+            listado.add(i);
+        }
+        return listado;
+    }
+
+    public Item fallbackItem() {
+        return new Item();
+    }
+    @HystrixCommand(fallbackMethod = "fallbackItem")
+    @GetMapping("/create")
+    public Item createItem() {
+        Item i= new Item();
+        i.setName("Pepe");
+        return itemClient.postItem(i)
+                .getContent();
+    }
+
+    @HystrixCommand(fallbackMethod = "fallbackItem")
+    @GetMapping("/read")
+    public Item readItem() {
+        return itemClient.readItem(new Long(1)).getContent();
+    }
+
+    @HystrixCommand(fallbackMethod = "fallbackItem")
+    @GetMapping("/edit")
+    public Item editItem() {
+        Item i= new Item();
+        i.setName("Pepe");
+        return itemClient.editItem(new Long(1),i)
+                .getContent();
+    }
+    @HystrixCommand(fallbackMethod = "fallbackItem")
+    @GetMapping("/delete")
+    public Item deleteItem() {
+        return itemClient.deleteItem(new Long(1)).getContent();
+    }
+
 }
