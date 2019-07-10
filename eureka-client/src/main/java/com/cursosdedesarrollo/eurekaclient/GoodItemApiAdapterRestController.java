@@ -41,7 +41,7 @@ class GoodItemApiAdapterRestController {
 
     @HystrixCommand(fallbackMethod = "fallback")
     @GetMapping("/listado")
-    public List<Item> listItems() {
+    public Collection<Item> listItems() {
         ArrayList<Item> listado= new ArrayList<>();
         Collection<Item> coleccion=itemClient.readItems()
                 .getContent();
