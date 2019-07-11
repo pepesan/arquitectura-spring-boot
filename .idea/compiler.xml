@@ -7,13 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-config-client" />
-        <module name="cloud-config-server" />
-        <module name="eureka-client" />
-        <module name="eureka-microservice" />
         <module name="eureka-server" />
-        <module name="spring-boot-hystrix-dashboard" />
+        <module name="eureka-microservice" />
+        <module name="eureka-client" />
+        <module name="cloud-config-server" />
+        <module name="cloud-config-client" />
         <module name="SpringBootJwtAuthentication" />
+        <module name="feign-eureka-hello-server" />
+        <module name="spring-boot-hystrix-dashboard" />
+        <module name="feign-eureka-hello-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +30,8 @@
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-microservice" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="feign-eureka-hello-client" options="-parameters" />
+      <module name="feign-eureka-hello-server" options="-parameters" />
       <module name="spring-boot-hystrix-dashboard" options="-parameters" />
       <module name="spring-boot-security-token" options="-parameters" />
     </option>

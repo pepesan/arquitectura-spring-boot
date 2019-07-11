@@ -27,7 +27,6 @@ class GoodItemApiAdapterRestController {
     @GetMapping("/top-brands")
     public Collection<Item> goodItems() {
         return itemClient.readItems()
-                .getContent()
                 .stream()
                 .filter(this::isGreat)
                 .collect(Collectors.toList());
@@ -43,8 +42,7 @@ class GoodItemApiAdapterRestController {
     @GetMapping("/listado")
     public Collection<Item> listItems() {
         ArrayList<Item> listado= new ArrayList<>();
-        Collection<Item> coleccion=itemClient.readItems()
-                .getContent();
+        Collection<Item> coleccion=itemClient.readItems();
         for (Item i : coleccion){
             listado.add(i);
         }

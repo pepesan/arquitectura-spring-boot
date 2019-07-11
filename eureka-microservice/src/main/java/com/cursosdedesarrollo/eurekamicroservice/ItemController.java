@@ -13,37 +13,38 @@ import java.util.List;
  *
  */
 @RestController
+@RequestMapping("/api")
 public class ItemController {
 
     @Autowired
     private ItemRepository itemRepository;
 
 
-    @GetMapping("/api/items")
+    @GetMapping("/items")
     public List<Item> getItems() {
         List<Item> items = itemRepository.findAll();
         return items;
     }
 
-    @GetMapping("/api/items/{itemId}")
+    @GetMapping("/items/{itemId}")
     public Item getItem(@PathVariable(name="itemId")Long itemId) {
         return itemRepository.findById(itemId).get();
     }
 
-    @PostMapping("/api/items")
+    @PostMapping("/items")
     public Item saveItem(@RequestBody Item item){
         itemRepository.save(item);
         return item;
     }
 
-    @DeleteMapping("/api/items/{itemId}")
+    @DeleteMapping("/items/{itemId}")
     public Item deleteItem(@PathVariable(name="itemId")Long id){
         Item i = itemRepository.findById(id).get();
         itemRepository.deleteById(id);
         return i;
     }
 
-    @PutMapping("/api/item/{itemId}")
+    @PutMapping("/item/{itemId}")
     public Item updateEmployee(@RequestBody Item item,
                                @PathVariable(name="itemId")Long id){
         itemRepository.save(item);

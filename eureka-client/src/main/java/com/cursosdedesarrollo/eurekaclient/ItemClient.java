@@ -1,15 +1,18 @@
 package com.cursosdedesarrollo.eurekaclient;
 
+
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.Resources;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @FeignClient("item-catalog-service")
 interface ItemClient {
 
     @GetMapping("/api/items")
-    Resources<Item> readItems();
+    List<Item> readItems();
     @PostMapping("/api/items")
     Resource<Item> postItem(@RequestBody Item item);
     @GetMapping("/api/items/{id}")
