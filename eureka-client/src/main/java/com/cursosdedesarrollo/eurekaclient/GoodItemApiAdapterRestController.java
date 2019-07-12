@@ -1,22 +1,20 @@
 package com.cursosdedesarrollo.eurekaclient;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
 class GoodItemApiAdapterRestController {
 
-    private final ItemClient itemClient;
+    @Autowired
+    private ItemClient itemClient;
 
-    public GoodItemApiAdapterRestController(ItemClient itemClient) {
-        this.itemClient = itemClient;
-    }
     public Collection<Item> fallback() {
         return new ArrayList<>();
     }

@@ -1,16 +1,7 @@
-logging:
-  level:
-    com:
-      cursosdedesarrollo:
-        eurekaclient:
-          ItemClient: DEBUG
-ribbon:
-  products:
-    listOfServers: localhost
 eureka:
   client:
     fetch-registry: true
-  enabled: false
+    enabled: true
 feign:
   hystrix:
     enabled: true

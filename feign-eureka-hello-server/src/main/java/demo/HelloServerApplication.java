@@ -37,8 +37,8 @@ public class HelloServerApplication {
 			System.out.println(i.getHost());
 			System.out.println(i.getServiceId());
 		}
-
-		return sb.toString();
+		return "Hola soy una string generada en el servidor";
+		//return sb.toString();
 		//return client.getInstances("helloserver").toString();
 		//return "Hello World: "+ localInstance.getServiceId()+":"+localInstance.getHost()+":"+localInstance.getPort();
 	}
