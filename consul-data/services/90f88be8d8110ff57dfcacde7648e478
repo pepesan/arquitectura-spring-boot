@@ -1,1 +1,0 @@
-{"Token":"","Service":{"ID":"school-service-8098","Service":"school-service","Tags":["secure=false"],"Address":"192.168.0.102","Meta":null,"Port":8098,"Weights":{"Passing":1,"Warning":1},"EnableTagOverride":false,"ProxyDestination":"","Proxy":{},"Connect":{},"CreateIndex":0,"ModifyIndex":0}}

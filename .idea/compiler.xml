@@ -12,9 +12,9 @@
         <module name="eureka-client" />
         <module name="cloud-config-server" />
         <module name="cloud-config-client" />
-        <module name="cliente-consul" />
-        <module name="SpringBootJwtAuthentication" />
         <module name="feign-eureka-hello-server" />
+        <module name="SpringBootJwtAuthentication" />
+        <module name="cliente-consul" />
         <module name="spring-boot-hystrix-dashboard" />
         <module name="feign-eureka-hello-client" />
         <module name="consul-cliente-rest" />
