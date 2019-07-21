@@ -1,0 +1,15 @@
+server:
+  port: 8098
+
+spring:
+  application:
+   name: school-service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    discovery:
+      register: true
+management:
+  security:
+    enabled: false

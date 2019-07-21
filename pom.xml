@@ -11,6 +11,8 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>consul-cliente/pom.xml</module>
+        <module>consul-cliente-rest/pom.xml</module>
         <module>feign-eureka-hello-client/pom.xml</module>
         <module>feign-eureka-hello-server/pom.xml</module>
         <module>eureka-server/pom.xml</module>
