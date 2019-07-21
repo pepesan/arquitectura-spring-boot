@@ -19,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cliente-consul" target="1.8" />
       <module name="spring-boot-security-token" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: HelloClient
+
+server:
+  port: 7211
+
+eureka:
+  client:
+    # URL del servidor eureka
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    # Es necesario para que vea las instancias de app
+    fetchRegistry: true
