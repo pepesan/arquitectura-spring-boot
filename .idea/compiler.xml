@@ -7,17 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
         <module name="eureka-microservice" />
         <module name="eureka-client" />
         <module name="cloud-config-server" />
-        <module name="cloud-config-client" />
-        <module name="feign-eureka-hello-server" />
-        <module name="SpringBootJwtAuthentication" />
-        <module name="cliente-consul" />
-        <module name="spring-boot-hystrix-dashboard" />
         <module name="feign-eureka-hello-client" />
         <module name="consul-cliente-rest" />
+        <module name="SpringBootJwtAuthentication" />
+        <module name="cliente-consul" />
+        <module name="cloud-config-client" />
+        <module name="spring-boot-hystrix-dashboard" />
+        <module name="eureka-server" />
+        <module name="feign-eureka-hello-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
