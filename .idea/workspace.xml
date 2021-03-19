@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="metidas las referencias">
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="mejorada documentación del microservicio cliente de consul">
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/central_config/global-defaults.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/cleanup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/consul_config/consul-single-dc.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/consul_config/prometheus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/docker-compose-fail.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/docker-compose-success.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/fail.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/request.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/service_config/api-v1.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/service_config/api-v2.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/service_config/web.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consul-docker-compose/success.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-cliente-rest/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/consul-cliente-rest/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +237,7 @@
       <workItem from="1563682843604" duration="20000" />
       <workItem from="1616080488006" duration="1659000" />
       <workItem from="1616082360182" duration="5000" />
-      <workItem from="1616169281713" duration="5014000" />
+      <workItem from="1616169281713" duration="5976000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -245,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616174450026</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mejorada documentación del microservicio cliente de consul">
+      <created>1616175398654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616175398654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -349,7 +371,8 @@
     <MESSAGE value="mejoras de las configuración" />
     <MESSAGE value="mejora de la documentación de instalación y arranque del agente de consul" />
     <MESSAGE value="metidas las referencias" />
-    <option name="LAST_COMMIT_MESSAGE" value="metidas las referencias" />
+    <MESSAGE value="mejorada documentación del microservicio cliente de consul" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejorada documentación del microservicio cliente de consul" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">
