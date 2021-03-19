@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="mejoras de las configuración">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-cliente/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/consul-cliente/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-cliente/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consul-cliente/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,8 +223,16 @@
       <workItem from="1563682843604" duration="20000" />
       <workItem from="1616080488006" duration="1659000" />
       <workItem from="1616082360182" duration="5000" />
-      <workItem from="1616169281713" duration="3244000" />
+      <workItem from="1616169281713" duration="3859000" />
     </task>
+    <task id="LOCAL-00001" summary="mejoras de las configuración">
+      <created>1616173679837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616173679837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -313,6 +320,21 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mejoras de las configuración" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejoras de las configuración" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">

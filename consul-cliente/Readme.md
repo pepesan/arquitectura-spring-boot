@@ -1,10 +1,16 @@
 # Cliente de Consul y servicio Rest 
 
 Para que funcione todo es necesario lanzar el servidor de consul
-
-$ consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1
 ### Descarga
 (https://www.consul.io/downloads.html)
+# Instalación
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt-get update && sudo apt-get install consul
+# Arranque del agente del consul
+$consul agent -dev
+####otra manera de arranque
+$ consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1
 
 # Acceso al servidor de consul
 (http//127.0.0.1:8500/)
