@@ -23,3 +23,8 @@ mvn spring-boot:run
 
 # Comprobaciones
 * Desde la consola de Consul se ve el servicio
+
+
+# Referencias
+* [guia de consul de baeldung](https://www.baeldung.com/spring-cloud-consul)
+* [Tutorial de instalación de consul](https://learn.hashicorp.com/tutorials/consul/get-started-agent?in=consul/getting-started)
