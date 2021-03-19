@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="mejoras de las configuración">
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="metidas las referencias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-cliente/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/consul-cliente/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-cliente/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consul-cliente/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-cliente-rest/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/consul-cliente-rest/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +222,7 @@
       <workItem from="1563682843604" duration="20000" />
       <workItem from="1616080488006" duration="1659000" />
       <workItem from="1616082360182" duration="5000" />
-      <workItem from="1616169281713" duration="3859000" />
+      <workItem from="1616169281713" duration="5014000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -232,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616173679837</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mejora de la documentación de instalación y arranque del agente de consul">
+      <created>1616174269912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616174269912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="metidas las referencias">
+      <created>1616174450026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616174450026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -334,7 +347,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mejoras de las configuración" />
-    <option name="LAST_COMMIT_MESSAGE" value="mejoras de las configuración" />
+    <MESSAGE value="mejora de la documentación de instalación y arranque del agente de consul" />
+    <MESSAGE value="metidas las referencias" />
+    <option name="LAST_COMMIT_MESSAGE" value="metidas las referencias" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">

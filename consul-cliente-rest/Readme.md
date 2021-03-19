@@ -1,7 +1,7 @@
 # Microservicio cliente del cliente de Consul
 * Accedemos como consumidor rest del otro microservicio
-* Es necesario que el servidor esté en marcha
-* Es necesario que el otro servicio esté en marcha
+* Es necesario que el agente esté en marcha
+* Es necesario que el micro servicio servidor esté en marcha
 
 # Arrancamos el microservicio
 mvn spring-boot:run
