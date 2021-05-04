@@ -4,65 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="nuevo ejemplo de uso de docker compose para consul">
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/java/com/example/demo/api/gateway/DemoApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/test/java/com/example/demo/api/gateway/DemoApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/DemoEurekaDepartmentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/test/java/com/example/demo/eureka/department/DemoEurekaDepartmentApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/java/com/example/demo/eureka/server/DemoEurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/test/java/com/example/demo/eureka/server/DemoEurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/DemoEurekaUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/ResponseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/test/java/com/example/demo/eureka/user/DemoEurekaUserApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="nuevos ejemplos para el api gateway con eureka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/cursosdedesarrollo/edurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/cursosdedesarrollo/edurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consul-cliente/target/classes/META-INF/cliente-consul.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +273,7 @@
       <workItem from="1620117134954" duration="250000" />
       <workItem from="1620117393397" duration="848000" />
       <workItem from="1620118260247" duration="64000" />
-      <workItem from="1620118332324" duration="1695000" />
+      <workItem from="1620118332324" duration="3719000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -358,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616176674317</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="nuevos ejemplos para el api gateway con eureka">
+      <created>1620120100532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620120100532</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -465,7 +424,8 @@
     <MESSAGE value="metidas las referencias" />
     <MESSAGE value="mejorada documentación del microservicio cliente de consul" />
     <MESSAGE value="nuevo ejemplo de uso de docker compose para consul" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevo ejemplo de uso de docker compose para consul" />
+    <MESSAGE value="nuevos ejemplos para el api gateway con eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevos ejemplos para el api gateway con eureka" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">

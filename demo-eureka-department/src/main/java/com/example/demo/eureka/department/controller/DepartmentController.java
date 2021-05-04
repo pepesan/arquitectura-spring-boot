@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/departments")
@@ -15,14 +17,22 @@ public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
 
+    @GetMapping("/")
+    public List<Department> getAll(){
+        log.info("get department by id in controller");
+        return departmentService.findAll();
+    }
     @PostMapping("/")
     public Department saveDepartment(@Valid @RequestBody Department department){
         log.info("saving department");
-        return departmentService.save(department);
+        Department savedItem=departmentService.save(department);
+        log.info(String.valueOf(savedItem));
+        System.out.println(String.valueOf(savedItem));
+        return savedItem;
     }
     @GetMapping("/{id}")
-    public Department getById(@PathVariable("id") Long id){
+    public Department getById(@PathVariable Long id){
         log.info("get department by id in controller");
-        return departmentService.getById(id);
+        return departmentService.getById(id).get();
     }
 }
