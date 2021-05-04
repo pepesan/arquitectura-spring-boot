@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="probados servicios individualmente, falta la integración">
-      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" afterDir="false" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="últimas validaciones">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +264,7 @@
       <workItem from="1620117134954" duration="250000" />
       <workItem from="1620117393397" duration="848000" />
       <workItem from="1620118260247" duration="64000" />
-      <workItem from="1620118332324" duration="4145000" />
+      <workItem from="1620118332324" duration="5442000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -316,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620122169358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="últimas validaciones">
+      <created>1620122572543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620122572543</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -425,7 +431,8 @@
     <MESSAGE value="nuevo ejemplo de uso de docker compose para consul" />
     <MESSAGE value="nuevos ejemplos para el api gateway con eureka" />
     <MESSAGE value="probados servicios individualmente, falta la integración" />
-    <option name="LAST_COMMIT_MESSAGE" value="probados servicios individualmente, falta la integración" />
+    <MESSAGE value="últimas validaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="últimas validaciones" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">
