@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="nuevos ejemplos para el api gateway con eureka">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consul-cliente/target/classes/META-INF/cliente-consul.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/repository/DepartmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/repositories/UserRepository.java" afterDir="false" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="probados servicios individualmente, falta la integración">
+      <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +265,7 @@
       <workItem from="1620117134954" duration="250000" />
       <workItem from="1620117393397" duration="848000" />
       <workItem from="1620118260247" duration="64000" />
-      <workItem from="1620118332324" duration="3719000" />
+      <workItem from="1620118332324" duration="4145000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -317,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620120100532</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="probados servicios individualmente, falta la integración">
+      <created>1620122169358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620122169358</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -425,7 +424,8 @@
     <MESSAGE value="mejorada documentación del microservicio cliente de consul" />
     <MESSAGE value="nuevo ejemplo de uso de docker compose para consul" />
     <MESSAGE value="nuevos ejemplos para el api gateway con eureka" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevos ejemplos para el api gateway con eureka" />
+    <MESSAGE value="probados servicios individualmente, falta la integración" />
+    <option name="LAST_COMMIT_MESSAGE" value="probados servicios individualmente, falta la integración" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">

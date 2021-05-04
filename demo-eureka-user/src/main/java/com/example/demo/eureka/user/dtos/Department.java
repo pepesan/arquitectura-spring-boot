@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Department {
-    private Long departmentId;
+    private Long id;
     private String departmentName;
     private String departmentAddress;
 }
