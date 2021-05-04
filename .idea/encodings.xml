@@ -11,6 +11,10 @@
     <file url="file://$PROJECT_DIR$/consul-cliente-rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consul-cliente-rest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consul-cliente/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-department/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client/src/main/resources" charset="UTF-8" />

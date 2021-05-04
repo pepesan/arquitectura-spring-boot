@@ -4,24 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="mejorada documentación del microservicio cliente de consul">
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/central_config/global-defaults.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/cleanup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/consul_config/consul-single-dc.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/consul_config/prometheus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/docker-compose-fail.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/docker-compose-success.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/fail.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/request.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/service_config/api-v1.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/service_config/api-v2.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/service_config/web.hcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consul-docker-compose/success.sh" afterDir="false" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="nuevo ejemplo de uso de docker compose para consul">
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/java/com/example/demo/api/gateway/DemoApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/test/java/com/example/demo/api/gateway/DemoApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/DemoEurekaDepartmentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/java/com/example/demo/eureka/department/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-department/src/test/java/com/example/demo/eureka/department/DemoEurekaDepartmentApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/java/com/example/demo/eureka/server/DemoEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/test/java/com/example/demo/eureka/server/DemoEurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/DemoEurekaUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/dtos/ResponseUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/java/com/example/demo/eureka/user/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-eureka-user/src/test/java/com/example/demo/eureka/user/DemoEurekaUserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/cursosdedesarrollo/edurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/cursosdedesarrollo/edurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +74,13 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,6 +184,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.eureka.user.dtos" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -184,6 +235,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.api.gateway.DemoApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoEurekaDepartmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-eureka-department" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.eureka.department.DemoEurekaDepartmentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoEurekaUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-eureka-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.eureka.user.DemoEurekaUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cursosdedesarrollo.eurekaclient.EurekaClientApplication" />
@@ -221,6 +293,9 @@
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.CloudConfigClientApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.DemoApiGatewayApplication" />
+      <item itemvalue="Spring Boot.DemoEurekaDepartmentApplication" />
+      <item itemvalue="Spring Boot.DemoEurekaUserApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -237,7 +312,16 @@
       <workItem from="1563682843604" duration="20000" />
       <workItem from="1616080488006" duration="1659000" />
       <workItem from="1616082360182" duration="5000" />
-      <workItem from="1616169281713" duration="5976000" />
+      <workItem from="1616169281713" duration="6781000" />
+      <workItem from="1616496369776" duration="7000" />
+      <workItem from="1619714440835" duration="110000" />
+      <workItem from="1619714653453" duration="133000" />
+      <workItem from="1620115026865" duration="243000" />
+      <workItem from="1620115272836" duration="1850000" />
+      <workItem from="1620117134954" duration="250000" />
+      <workItem from="1620117393397" duration="848000" />
+      <workItem from="1620118260247" duration="64000" />
+      <workItem from="1620118332324" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -267,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616175398654</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="nuevo ejemplo de uso de docker compose para consul">
+      <created>1616176674316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616176674317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -366,13 +457,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mejoras de las configuración" />
     <MESSAGE value="mejora de la documentación de instalación y arranque del agente de consul" />
     <MESSAGE value="metidas las referencias" />
     <MESSAGE value="mejorada documentación del microservicio cliente de consul" />
-    <option name="LAST_COMMIT_MESSAGE" value="mejorada documentación del microservicio cliente de consul" />
+    <MESSAGE value="nuevo ejemplo de uso de docker compose para consul" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevo ejemplo de uso de docker compose para consul" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">

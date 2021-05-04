@@ -7,21 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-eureka-department" />
+        <module name="cloud-config-server" />
+        <module name="demo-eureka-user" />
+        <module name="feign-eureka-hello-client" />
+        <module name="demo-api-gateway" />
+        <module name="spring-boot-hystrix-dashboard" />
+        <module name="eureka-server" />
         <module name="eureka-microservice" />
         <module name="eureka-client" />
-        <module name="cloud-config-server" />
-        <module name="feign-eureka-hello-client" />
         <module name="consul-cliente-rest" />
         <module name="SpringBootJwtAuthentication" />
         <module name="cliente-consul" />
+        <module name="demo-eureka-server" />
         <module name="cloud-config-client" />
-        <module name="spring-boot-hystrix-dashboard" />
-        <module name="eureka-server" />
         <module name="feign-eureka-hello-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-security-token" target="1.8" />
+      <module name="wrapper" target="1.5" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +38,10 @@
       <module name="cloud-config-client" options="-parameters" />
       <module name="cloud-config-server" options="-parameters" />
       <module name="consul-cliente-rest" options="-parameters" />
+      <module name="demo-api-gateway" options="-parameters" />
+      <module name="demo-eureka-department" options="-parameters" />
+      <module name="demo-eureka-server" options="-parameters" />
+      <module name="demo-eureka-user" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-microservice" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

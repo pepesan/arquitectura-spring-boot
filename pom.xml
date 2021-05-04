@@ -15,6 +15,10 @@
         <module>consul-cliente-rest/pom.xml</module>
         <module>feign-eureka-hello-client/pom.xml</module>
         <module>feign-eureka-hello-server/pom.xml</module>
+        <module>demo-api-gateway/pom.xml</module>
+        <module>demo-eureka-server/pom.xml</module>
+        <module>demo-eureka-department/pom.xml</module>
+        <module>demo-eureka-user/pom.xml</module>
         <module>eureka-server/pom.xml</module>
         <module>eureka-microservice/pom.xml</module>
         <module>eureka-client/pom.xml</module>
