@@ -1,21 +1,22 @@
 server:
-  port: 8010    #port number
+  port: 9295    #port number
 
 eureka:
-  instance:
-    leaseRenewalIntervalInSeconds: 5
-    leaseExpirationDurationInSeconds: 2
   client:
-  #  serviceUrl:
-      #defaultZone: http://localhost:8761/eureka/
-    healthcheck:
-      enabled: true
-    lease:
-      duration: 5
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
 
 spring:
   application:
-    name: api-gateway
+    name: HYSTRIX-DASHBOARD
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
 
 management:
   endpoints:
