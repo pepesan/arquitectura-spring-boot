@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="configuración de rutas en el api gateway">
-      <change afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/java/com/example/demo/api/gateway/FallbackMethodController.java" afterDir="false" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="ultima versión estable antes de la migración de hystrix a otro sistema">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-api-gateway/src/main/java/com/example/demo/api/gateway/DemoApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/java/com/example/demo/api/gateway/DemoApiGatewayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +268,7 @@
       <workItem from="1620118260247" duration="64000" />
       <workItem from="1620118332324" duration="5452000" />
       <workItem from="1620198351822" duration="2013000" />
-      <workItem from="1620200374595" duration="623000" />
+      <workItem from="1620200374595" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620199453982</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ultima versión estable antes de la migración de hystrix a otro sistema">
+      <created>1620201319082</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620201319082</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -476,7 +481,8 @@
     <MESSAGE value="cambios en configuraciones" />
     <MESSAGE value="balanceador de carga y nomenclatura de url con nombre de servicio vs host+ puerto" />
     <MESSAGE value="configuración de rutas en el api gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuración de rutas en el api gateway" />
+    <MESSAGE value="ultima versión estable antes de la migración de hystrix a otro sistema" />
+    <option name="LAST_COMMIT_MESSAGE" value="ultima versión estable antes de la migración de hystrix a otro sistema" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">
