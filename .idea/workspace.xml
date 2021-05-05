@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="cambios en configuraciones" />
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="balanceador de carga y nomenclatura de url con nombre de servicio vs host+ puerto">
+      <change beforePath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +254,7 @@
       <workItem from="1620117393397" duration="848000" />
       <workItem from="1620118260247" duration="64000" />
       <workItem from="1620118332324" duration="5452000" />
-      <workItem from="1620198351822" duration="606000" />
+      <workItem from="1620198351822" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -324,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620198953737</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="cambios en configuraciones">
+      <created>1620198966173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620198966173</updated>
+    </task>
+    <task id="LOCAL-00012" summary="balanceador de carga y nomenclatura de url con nombre de servicio vs host+ puerto">
+      <created>1620199140800</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620199140800</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -435,7 +451,8 @@
     <MESSAGE value="probados servicios individualmente, falta la integración" />
     <MESSAGE value="últimas validaciones" />
     <MESSAGE value="cambios en configuraciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en configuraciones" />
+    <MESSAGE value="balanceador de carga y nomenclatura de url con nombre de servicio vs host+ puerto" />
+    <option name="LAST_COMMIT_MESSAGE" value="balanceador de carga y nomenclatura de url con nombre de servicio vs host+ puerto" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">
