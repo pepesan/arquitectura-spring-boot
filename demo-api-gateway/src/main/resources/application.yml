@@ -6,14 +6,14 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: DEPARTMENT-SERVICE
+        - id: USER-SERVICE
           uri: lb://USER-SERVICE
           predicates:
             - Path=/users/**
         - id: DEPARTMENT-SERVICE
-            uri: lb://DEPARTMENT-SERVICE
-            predicates:
-              - Path=/departments/**
+          uri: lb://DEPARTMENT-SERVICE
+          predicates:
+            - Path=/departments/**
 eureka:
   client:
     register-with-eureka: true
