@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="terminado el camino del hystrix">
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/src/main/java/com/example/demo/service/resilence4j/client/DemoServiceResilence4jClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/src/main/java/com/example/demo/service/resilence4j/client/IngredientsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j-client/src/test/java/com/example/demo/service/resilence4j/client/DemoServiceResilence4jClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/src/main/java/com/example/demo/service/resilence4j/DemoServiceResilence4jApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-service-resilence4j/src/test/java/com/example/demo/service/resilence4j/DemoServiceResilence4jApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-hystrix-dashboard/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hystrix-dashboard/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-hystrix-dashboard/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +223,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoServiceResilence4jClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-service-resilence4j-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.service.resilence4j.client.DemoServiceResilence4jClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cursosdedesarrollo.eurekaclient.EurekaClientApplication" />
@@ -242,6 +270,7 @@
       <item itemvalue="Spring Boot.DemoApiGatewayApplication" />
       <item itemvalue="Spring Boot.DemoEurekaDepartmentApplication" />
       <item itemvalue="Spring Boot.DemoEurekaUserApplication" />
+      <item itemvalue="Spring Boot.DemoServiceResilence4jClientApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -269,7 +298,9 @@
       <workItem from="1620118260247" duration="64000" />
       <workItem from="1620118332324" duration="5452000" />
       <workItem from="1620198351822" duration="2013000" />
-      <workItem from="1620200374595" duration="2808000" />
+      <workItem from="1620200374595" duration="5248000" />
+      <workItem from="1620208333353" duration="519000" />
+      <workItem from="1620210134254" duration="3029000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -383,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620203188310</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="terminado el camino del hystrix">
+      <created>1620203196415</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620203196415</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

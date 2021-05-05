@@ -10,10 +10,12 @@
         <module name="demo-eureka-department" />
         <module name="cloud-config-server" />
         <module name="demo-eureka-user" />
+        <module name="demo-service-resilence4j-client" />
         <module name="feign-eureka-hello-client" />
         <module name="demo-api-gateway" />
         <module name="spring-boot-hystrix-dashboard" />
         <module name="eureka-server" />
+        <module name="demo-service-resilence4j" />
         <module name="eureka-microservice" />
         <module name="eureka-client" />
         <module name="consul-cliente-rest" />
@@ -42,6 +44,8 @@
       <module name="demo-eureka-department" options="-parameters" />
       <module name="demo-eureka-server" options="-parameters" />
       <module name="demo-eureka-user" options="-parameters" />
+      <module name="demo-service-resilence4j" options="-parameters" />
+      <module name="demo-service-resilence4j-client" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-microservice" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

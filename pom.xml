@@ -19,6 +19,8 @@
         <module>demo-eureka-server/pom.xml</module>
         <module>demo-eureka-department/pom.xml</module>
         <module>demo-eureka-user/pom.xml</module>
+        <module>demo-service-resilence4j/pom.xml</module>
+        <module>demo-service-resilence4j-client/pom.xml</module>
         <module>eureka-server/pom.xml</module>
         <module>eureka-microservice/pom.xml</module>
         <module>eureka-client/pom.xml</module>
