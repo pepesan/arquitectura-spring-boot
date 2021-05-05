@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="workaround para solventar el problema del circuitbreaker">
+    <list default="true" id="539cb166-0f97-4be6-8658-670ef103234b" name="Default Changelist" comment="terminado el camino del hystrix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-hystrix-dashboard/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hystrix-dashboard/Readme.md" afterDir="false" />
@@ -269,7 +269,7 @@
       <workItem from="1620118260247" duration="64000" />
       <workItem from="1620118332324" duration="5452000" />
       <workItem from="1620198351822" duration="2013000" />
-      <workItem from="1620200374595" duration="2283000" />
+      <workItem from="1620200374595" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="mejoras de las configuración">
       <created>1616173679837</created>
@@ -376,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620201722371</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="terminado el camino del hystrix">
+      <created>1620203188310</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620203188310</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -491,7 +498,8 @@
     <MESSAGE value="configuración de rutas en el api gateway" />
     <MESSAGE value="ultima versión estable antes de la migración de hystrix a otro sistema" />
     <MESSAGE value="workaround para solventar el problema del circuitbreaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="workaround para solventar el problema del circuitbreaker" />
+    <MESSAGE value="terminado el camino del hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminado el camino del hystrix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cloud-config-client/.gitignore">
